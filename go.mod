@@ -3,10 +3,10 @@ module go.etcd.io/etcd/v3
 go 1.18
 
 replace (
-	github.com/lfch/etcd-io/api/v3 => ./api
+	//github.com/lfch/etcd-io/api/v3 => ./api
 	go.etcd.io/etcd/client/pkg/v3 => ./client/pkg
 	go.etcd.io/etcd/client/v2 => ./client/v2
-	github.com/lfch/etcd-io/client/v3 => ./client/v3
+	//github.com/lfch/etcd-io/client/v3 => ./client/v3
 	go.etcd.io/etcd/etcdctl/v3 => ./etcdctl
 	go.etcd.io/etcd/etcdutl/v3 => ./etcdutl
 	go.etcd.io/etcd/pkg/v3 => ./pkg
