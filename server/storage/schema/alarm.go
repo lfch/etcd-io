@@ -15,8 +15,8 @@
 package schema
 
 import (
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
 	"go.uber.org/zap"
 )
 

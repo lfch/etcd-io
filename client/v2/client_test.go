@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
 )
 
 type actionAssertingHTTPClient struct {

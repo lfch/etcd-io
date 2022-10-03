@@ -22,12 +22,12 @@ import (
 	"errors"
 	"strings"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/naming/endpoints/internal"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/client/v3/naming/endpoints/internal"
 
-	"go.uber.org/zap"
 	"github.com/lfch/grpc/codes"
 	"github.com/lfch/grpc/status"
+	"go.uber.org/zap"
 )
 
 type endpointManager struct {

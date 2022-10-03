@@ -20,15 +20,15 @@ import (
 	"time"
 
 	"github.com/coreos/go-semver/semver"
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/server/v3/storage/wal"
-	"go.etcd.io/etcd/server/v3/storage/wal/walpb"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/server/v3/embed"
+	"github.com/lfch/etcd-io/server/v3/storage/wal"
+	"github.com/lfch/etcd-io/server/v3/storage/wal/walpb"
 )
 
 func TestEtcdVersionFromWAL(t *testing.T) {

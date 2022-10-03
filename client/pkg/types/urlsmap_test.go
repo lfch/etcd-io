@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
 )
 
 func TestParseInitialCluster(t *testing.T) {

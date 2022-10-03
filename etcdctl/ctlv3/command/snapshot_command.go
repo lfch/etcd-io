@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/lfch/etcd-io/client/pkg/v3/logutil"
+	snapshot "github.com/lfch/etcd-io/client/v3/snapshot"
+	"github.com/lfch/etcd-io/pkg/v3/cobrautl"
 	"github.com/spf13/cobra"
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	snapshot "go.etcd.io/etcd/client/v3/snapshot"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
 	"go.uber.org/zap"
 )
 

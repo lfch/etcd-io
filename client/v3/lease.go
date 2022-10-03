@@ -19,12 +19,12 @@ import (
 	"sync"
 	"time"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/api/v3/v3rpc/rpctypes"
 
-	"go.uber.org/zap"
 	"github.com/lfch/grpc"
 	"github.com/lfch/grpc/metadata"
+	"go.uber.org/zap"
 )
 
 type (

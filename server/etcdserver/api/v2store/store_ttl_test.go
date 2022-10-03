@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/v2error"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2error"
 
 	"github.com/jonboulle/clockwork"
 )

@@ -18,7 +18,7 @@
 package common
 
 import (
-	"go.etcd.io/etcd/tests/v3/framework"
+	"github.com/lfch/etcd-io/tests/v3/framework"
 )
 
 func init() {

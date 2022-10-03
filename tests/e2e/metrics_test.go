@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/tests/v3/framework/e2e"
 )
 
 func TestV3MetricsSecure(t *testing.T) {

@@ -27,7 +27,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/server/v3/etcdserver"
+	"github.com/lfch/etcd-io/server/v3/etcdserver"
 )
 
 const EtcdProcessBasePort = 20000

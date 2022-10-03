@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/server/v3/lease/leasepb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/schema"
+	"github.com/lfch/etcd-io/server/v3/lease/leasepb"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/server/v3/storage/schema"
 )
 
 type Lease struct {

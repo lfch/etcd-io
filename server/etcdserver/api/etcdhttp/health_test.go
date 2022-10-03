@@ -9,13 +9,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/raft/v3"
-	"go.etcd.io/etcd/server/v3/auth"
-	"go.etcd.io/etcd/server/v3/config"
-	"go.etcd.io/etcd/server/v3/etcdserver"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
+	"github.com/lfch/etcd-io/raft/v3"
+	"github.com/lfch/etcd-io/server/v3/auth"
+	"github.com/lfch/etcd-io/server/v3/config"
+	"github.com/lfch/etcd-io/server/v3/etcdserver"
 	"go.uber.org/zap/zaptest"
 )
 

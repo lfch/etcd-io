@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
 )
 
 func TestPauseMember(t *testing.T) {

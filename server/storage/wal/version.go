@@ -23,9 +23,9 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/pkg/v3/pbutil"
-	"go.etcd.io/etcd/raft/v3/raftpb"
+	"github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/pkg/v3/pbutil"
+	"github.com/lfch/etcd-io/raft/v3/raftpb"
 )
 
 // ReadWALVersion reads remaining entries from opened WAL and returns struct

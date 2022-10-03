@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/tests/v3/functional/rpcpb"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/tests/v3/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

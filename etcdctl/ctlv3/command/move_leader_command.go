@@ -19,8 +19,8 @@ import (
 	"strconv"
 
 	"github.com/spf13/cobra"
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
+	"github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/pkg/v3/cobrautl"
 )
 
 // NewMoveLeaderCommand returns the cobra command for "move-leader".

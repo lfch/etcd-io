@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/client/v3/concurrency"
+	"github.com/lfch/etcd-io/client/v3/leasing"
+	integration2 "github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/concurrency"
-	"go.etcd.io/etcd/client/v3/leasing"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
 )
 
 func TestLeasingPutGet(t *testing.T) {

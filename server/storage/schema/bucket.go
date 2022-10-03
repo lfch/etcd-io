@@ -17,8 +17,8 @@ package schema
 import (
 	"bytes"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
 )
 
 var (

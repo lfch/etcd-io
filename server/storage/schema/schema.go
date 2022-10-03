@@ -18,10 +18,10 @@ import (
 	"fmt"
 
 	"github.com/coreos/go-semver/semver"
-	"go.etcd.io/etcd/api/v3/version"
+	"github.com/lfch/etcd-io/api/v3/version"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
 )
 
 // Validate checks provided backend to confirm that schema used is supported.

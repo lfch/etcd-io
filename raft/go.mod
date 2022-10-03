@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/raft/v3
+module github.com/lfch/etcd-io/raft/v3
 
 go 1.19
 
@@ -8,8 +8,8 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.5.2
 	github.com/pkg/errors v0.9.1 // indirect
-	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/api/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/client/pkg/v3 v3.6.0-alpha.0
 )
 
 require (
@@ -28,10 +28,10 @@ require (
 
 // Bad imports are sometimes causing attempts to pull that code.
 // This makes the error more explicit.
-replace go.etcd.io/etcd => ./FORBIDDEN_DEPENDENCY
+replace github.com/lfch/etcd-io => ./FORBIDDEN_DEPENDENCY
 
-replace go.etcd.io/etcd/v3 => ./FORBIDDEN_DEPENDENCY
+replace github.com/lfch/etcd-io/v3 => ./FORBIDDEN_DEPENDENCY
 
-replace go.etcd.io/etcd/client/pkg/v3 => ../client/pkg
+replace github.com/lfch/etcd-io/client/pkg/v3 => ../client/pkg
 
-replace go.etcd.io/etcd/api/v3 => ../api
+replace github.com/lfch/etcd-io/api/v3 => ../api

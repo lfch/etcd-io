@@ -17,8 +17,8 @@ package common
 import (
 	"testing"
 
-	"go.etcd.io/etcd/tests/v3/framework"
-	"go.etcd.io/etcd/tests/v3/framework/config"
+	"github.com/lfch/etcd-io/tests/v3/framework"
+	"github.com/lfch/etcd-io/tests/v3/framework/config"
 )
 
 var testRunner = framework.UnitTestRunner

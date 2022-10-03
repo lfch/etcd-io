@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/tests/v3/framework/config"
+	"github.com/lfch/etcd-io/tests/v3/framework/config"
 )
 
 func TestWaitLeader(t *testing.T) {

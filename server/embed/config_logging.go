@@ -23,12 +23,12 @@ import (
 	"net/url"
 	"os"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/logutil"
+	"github.com/lfch/grpc"
+	"github.com/lfch/grpc/grpclog"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zapgrpc"
-	"github.com/lfch/grpc"
-	"github.com/lfch/grpc/grpclog"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 

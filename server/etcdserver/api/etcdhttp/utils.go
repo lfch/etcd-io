@@ -17,9 +17,9 @@ package etcdhttp
 import (
 	"net/http"
 
-	httptypes "go.etcd.io/etcd/server/v3/etcdserver/api/etcdhttp/types"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2error"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
+	httptypes "github.com/lfch/etcd-io/server/v3/etcdserver/api/etcdhttp/types"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/v2error"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/errors"
 	"go.uber.org/zap"
 )
 

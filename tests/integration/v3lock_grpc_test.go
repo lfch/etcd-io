@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	lockpb "go.etcd.io/etcd/server/v3/etcdserver/api/v3lock/v3lockpb"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	lockpb "github.com/lfch/etcd-io/server/v3/etcdserver/api/v3lock/v3lockpb"
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 )
 
 // TestV3LockLockWaiter tests that a client will wait for a lock, then acquire it

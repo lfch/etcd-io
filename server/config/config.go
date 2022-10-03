@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/pkg/v3/netutil"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v3discovery"
-	"go.etcd.io/etcd/server/v3/storage/datadir"
+	"github.com/lfch/etcd-io/client/pkg/v3/transport"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
+	"github.com/lfch/etcd-io/pkg/v3/netutil"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/v3discovery"
+	"github.com/lfch/etcd-io/server/v3/storage/datadir"
 	"go.opentelemetry.io/contrib/instrumentation/github.com/lfch/grpc/otelgrpc"
 
 	bolt "go.etcd.io/bbolt"

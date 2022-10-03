@@ -11,7 +11,7 @@ import (
 
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/golang/protobuf/proto"
-	_ "go.etcd.io/etcd/api/v3/versionpb"
+	_ "github.com/lfch/etcd-io/api/v3/versionpb"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

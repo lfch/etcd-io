@@ -16,8 +16,8 @@
 package main
 
 import (
+	"github.com/lfch/etcd-io/etcdutl/v3/etcdutl"
 	"github.com/spf13/cobra"
-	"go.etcd.io/etcd/etcdutl/v3/etcdutl"
 )
 
 const (

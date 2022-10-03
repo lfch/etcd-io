@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"time"
 
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/tests/v3/functional/rpcpb"
+	"github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/tests/v3/functional/rpcpb"
 
-	"go.uber.org/zap"
 	"github.com/lfch/grpc"
+	"go.uber.org/zap"
 )
 
 type shortTTLLeaseExpireChecker struct {

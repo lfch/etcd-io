@@ -26,11 +26,11 @@ import (
 	"time"
 
 	grpcprom "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/lfch/etcd-io/client/pkg/v3/transport"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	integration2 "github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"github.com/lfch/grpc"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 func TestV3ClientMetrics(t *testing.T) {

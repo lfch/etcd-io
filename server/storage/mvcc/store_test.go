@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
-	"go.etcd.io/etcd/server/v3/storage/schema"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	betesting "github.com/lfch/etcd-io/server/v3/storage/backend/testing"
+	"github.com/lfch/etcd-io/server/v3/storage/schema"
 )
 
 // TestScheduledCompact ensures that UnsafeSetScheduledCompact&UnsafeReadScheduledCompact work well together.

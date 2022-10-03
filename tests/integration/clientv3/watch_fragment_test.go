@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/client/v3"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/client/v3"
+	integration2 "github.com/lfch/etcd-io/tests/v3/framework/integration"
 )
 
 // TestWatchFragmentDisable ensures that large watch

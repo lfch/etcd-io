@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"io"
 
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
 	"github.com/lfch/grpc"
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	"go.uber.org/zap"
 )
 

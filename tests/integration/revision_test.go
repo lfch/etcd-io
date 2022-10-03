@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"github.com/lfch/grpc/status"
 )
 

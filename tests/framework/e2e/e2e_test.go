@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
 )
 
 func Test_AddTxnResponse(t *testing.T) {

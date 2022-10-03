@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/lfch/etcd-io/client/pkg/v3/srv"
+	"github.com/lfch/etcd-io/client/pkg/v3/transport"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/client/pkg/v3/srv"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	"go.etcd.io/etcd/client/pkg/v3/types"
 
 	"sigs.k8s.io/yaml"
 )

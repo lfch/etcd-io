@@ -21,7 +21,7 @@ import (
 	"os"
 	"sync"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
 
 	"github.com/lfch/grpc"
 	"github.com/lfch/grpc/resolver"

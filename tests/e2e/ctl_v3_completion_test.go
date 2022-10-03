@@ -21,8 +21,8 @@ import (
 	"os/exec"
 	"testing"
 
+	"github.com/lfch/etcd-io/tests/v3/framework/e2e"
 	"github.com/stretchr/testify/require"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
 )
 
 func TestCtlV3CompletionBash(t *testing.T) { testShellCompletion(t, e2e.CtlBinPath, "bash") }

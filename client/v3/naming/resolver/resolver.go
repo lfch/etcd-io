@@ -18,8 +18,8 @@ import (
 	"context"
 	"sync"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/naming/endpoints"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/client/v3/naming/endpoints"
 
 	"github.com/lfch/grpc/codes"
 	gresolver "github.com/lfch/grpc/resolver"

@@ -21,9 +21,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/lfch/etcd-io/api/v3/mvccpb"
 	"github.com/stretchr/testify/assert"
 	"go.etcd.io/bbolt"
-	"go.etcd.io/etcd/api/v3/mvccpb"
 )
 
 const (

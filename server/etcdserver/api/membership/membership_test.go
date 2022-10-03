@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/coreos/go-semver/semver"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/version"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/server/v3/etcdserver/version"
 
 	"go.uber.org/zap"
 )

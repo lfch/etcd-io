@@ -21,10 +21,10 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/tests/v3/framework"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/testutils"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/tests/v3/framework"
+	"github.com/lfch/etcd-io/tests/v3/framework/config"
+	"github.com/lfch/etcd-io/tests/v3/framework/testutils"
 )
 
 func TestCompact(t *testing.T) {

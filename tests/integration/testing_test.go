@@ -17,7 +17,7 @@ package integration_test
 import (
 	"testing"
 
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	integration2 "github.com/lfch/etcd-io/tests/v3/framework/integration"
 )
 
 func TestBeforeTestWithoutLeakDetection(t *testing.T) {

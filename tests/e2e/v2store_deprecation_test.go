@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/lfch/etcd-io/client/pkg/v3/fileutil"
+	"github.com/lfch/etcd-io/server/v3/etcdserver"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/snap"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/v2store"
+	"github.com/lfch/etcd-io/tests/v3/framework/config"
+	"github.com/lfch/etcd-io/tests/v3/framework/e2e"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/server/v3/etcdserver"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/snap"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2store"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
 	"go.uber.org/zap/zaptest"
 )
 

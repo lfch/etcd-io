@@ -24,17 +24,17 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/server/v3/storage/mvcc/testutil"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/lfch/etcd-io/server/v3/storage/mvcc/testutil"
+	integration2 "github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"go.uber.org/zap/zaptest"
 	"github.com/lfch/grpc"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/lease"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
+	"github.com/lfch/etcd-io/api/v3/v3rpc/rpctypes"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/server/v3/lease"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/server/v3/storage/mvcc"
 )
 
 func TestMaintenanceHashKV(t *testing.T) {

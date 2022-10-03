@@ -1,18 +1,18 @@
-module go.etcd.io/etcd/v3
+module github.com/lfch/etcd-io/v3
 
 go 1.18
 
 replace (
-	//github.com/lfch/etcd-io/api/v3 => ./api
-	go.etcd.io/etcd/client/pkg/v3 => ./client/pkg
-	go.etcd.io/etcd/client/v2 => ./client/v2
-	//github.com/lfch/etcd-io/client/v3 => ./client/v3
-	go.etcd.io/etcd/etcdctl/v3 => ./etcdctl
-	go.etcd.io/etcd/etcdutl/v3 => ./etcdutl
-	go.etcd.io/etcd/pkg/v3 => ./pkg
-	go.etcd.io/etcd/raft/v3 => ./raft
-	go.etcd.io/etcd/server/v3 => ./server
-	go.etcd.io/etcd/tests/v3 => ./tests
+	github.com/lfch/etcd-io/api/v3 => ./api
+	github.com/lfch/etcd-io/client/pkg/v3 => ./client/pkg
+	github.com/lfch/etcd-io/client/v2 => ./client/v2
+	github.com/lfch/etcd-io/client/v3 => ./client/v3
+	github.com/lfch/etcd-io/etcdctl/v3 => ./etcdctl
+	github.com/lfch/etcd-io/etcdutl/v3 => ./etcdutl
+	github.com/lfch/etcd-io/pkg/v3 => ./pkg
+	github.com/lfch/etcd-io/raft/v3 => ./raft
+	github.com/lfch/etcd-io/server/v3 => ./server
+	github.com/lfch/etcd-io/tests/v3 => ./tests
 )
 
 require (
@@ -23,15 +23,15 @@ require (
 	github.com/spf13/cobra v1.4.0
 	go.etcd.io/bbolt v1.3.6
 	github.com/lfch/etcd-io/api/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/v2 v2.306.0-alpha.0
+	github.com/lfch/etcd-io/client/pkg/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/client/v2 v2.306.0-alpha.0
 	github.com/lfch/etcd-io/client/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/etcdctl/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/etcdutl/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/pkg/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/raft/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/server/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/tests/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/etcdctl/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/etcdutl/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/pkg/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/raft/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/server/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/tests/v3 v3.6.0-alpha.0
 	go.uber.org/zap v1.21.0
 	golang.org/x/time v0.0.0-20220609170525-579cf78fd858
 	github.com/lfch/grpc v1.51.4

@@ -22,13 +22,13 @@ import (
 	"os"
 	"runtime"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	"go.etcd.io/etcd/pkg/v3/flags"
-	cconfig "go.etcd.io/etcd/server/v3/config"
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/rafthttp"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/client/pkg/v3/logutil"
+	"github.com/lfch/etcd-io/pkg/v3/flags"
+	cconfig "github.com/lfch/etcd-io/server/v3/config"
+	"github.com/lfch/etcd-io/server/v3/embed"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/membership"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/rafthttp"
 
 	"go.uber.org/zap"
 )

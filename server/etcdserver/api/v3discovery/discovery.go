@@ -29,8 +29,8 @@ import (
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	clientv3 "go.etcd.io/etcd/client/v3"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
 )
 
 const (

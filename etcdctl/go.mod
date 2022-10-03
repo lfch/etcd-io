@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/etcdctl/v3
+module github.com/lfch/etcd-io/etcdctl/v3
 
 go 1.19
 
@@ -9,10 +9,10 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
-	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/pkg/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/api/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/client/pkg/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/client/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/pkg/v3 v3.6.0-alpha.0
 	go.uber.org/zap v1.21.0
 	golang.org/x/time v0.0.0-20220609170525-579cf78fd858
 	github.com/lfch/grpc v1.51.4
@@ -41,16 +41,16 @@ require (
 )
 
 replace (
-	go.etcd.io/etcd/api/v3 => ../api
-	go.etcd.io/etcd/client/pkg/v3 => ../client/pkg
-	go.etcd.io/etcd/client/v3 => ../client/v3
-	go.etcd.io/etcd/pkg/v3 => ../pkg
+	github.com/lfch/etcd-io/api/v3 => ../api
+	github.com/lfch/etcd-io/client/pkg/v3 => ../client/pkg
+	github.com/lfch/etcd-io/client/v3 => ../client/v3
+	github.com/lfch/etcd-io/pkg/v3 => ../pkg
 )
 
 // Bad imports are sometimes causing attempts to pull that code.
 // This makes the error more explicit.
 replace (
-	go.etcd.io/etcd => ./FORBIDDEN_DEPENDENCY
-	go.etcd.io/etcd/v3 => ./FORBIDDEN_DEPENDENCY
+	github.com/lfch/etcd-io => ./FORBIDDEN_DEPENDENCY
+	github.com/lfch/etcd-io/v3 => ./FORBIDDEN_DEPENDENCY
 	go.etcd.io/tests/v3 => ./FORBIDDEN_DEPENDENCY
 )

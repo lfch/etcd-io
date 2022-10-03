@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
-	"go.etcd.io/etcd/tests/v3/integration"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	integration2 "github.com/lfch/etcd-io/tests/v3/framework/integration"
+	"github.com/lfch/etcd-io/tests/v3/integration"
 )
 
 const (

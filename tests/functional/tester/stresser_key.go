@@ -23,17 +23,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/raft/v3"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
-	"go.etcd.io/etcd/tests/v3/functional/rpcpb"
+	"github.com/lfch/etcd-io/api/v3/v3rpc/rpctypes"
+	"github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/raft/v3"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/errors"
+	"github.com/lfch/etcd-io/tests/v3/functional/rpcpb"
 
-	"go.uber.org/zap"
-	"golang.org/x/time/rate"
 	"github.com/lfch/grpc"
 	"github.com/lfch/grpc/codes"
 	"github.com/lfch/grpc/status"
+	"go.uber.org/zap"
+	"golang.org/x/time/rate"
 )
 
 type keyStresser struct {

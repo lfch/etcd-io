@@ -18,16 +18,16 @@ import (
 	"crypto/tls"
 	"math"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/client/v3/credentials"
-	"go.etcd.io/etcd/server/v3/etcdserver"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/client/v3/credentials"
+	"github.com/lfch/etcd-io/server/v3/etcdserver"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"go.opentelemetry.io/contrib/instrumentation/github.com/lfch/grpc/otelgrpc"
 	"github.com/lfch/grpc"
 	"github.com/lfch/grpc/health"
 	healthpb "github.com/lfch/grpc/health/grpc_health_v1"
+	"go.opentelemetry.io/contrib/instrumentation/github.com/lfch/grpc/otelgrpc"
 )
 
 const (

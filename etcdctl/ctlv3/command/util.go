@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	pb "go.etcd.io/etcd/api/v3/mvccpb"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
+	pb "github.com/lfch/etcd-io/api/v3/mvccpb"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/pkg/v3/cobrautl"
 
 	"github.com/spf13/cobra"
 )

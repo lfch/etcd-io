@@ -22,13 +22,13 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	"go.etcd.io/etcd/client/v2"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/rafthttp"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/lfch/etcd-io/client/pkg/v3/fileutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/transport"
+	"github.com/lfch/etcd-io/client/v2"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/rafthttp"
+	"github.com/lfch/etcd-io/tests/v3/framework/e2e"
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 )
 
 func TestClusterOf1UsingDiscovery(t *testing.T)    { testClusterUsingDiscovery(t, 1, false) }

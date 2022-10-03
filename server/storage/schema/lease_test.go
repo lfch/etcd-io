@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/lfch/etcd-io/server/v3/lease/leasepb"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	betesting "github.com/lfch/etcd-io/server/v3/storage/backend/testing"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/server/v3/lease/leasepb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
 	"go.uber.org/zap/zaptest"
 )
 

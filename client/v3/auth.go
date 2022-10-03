@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/lfch/etcd-io/api/v3/authpb"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
 	"github.com/lfch/grpc"
-	"go.etcd.io/etcd/api/v3/authpb"
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 )
 
 type (

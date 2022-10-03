@@ -15,8 +15,8 @@
 package etcdutl
 
 import (
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
+	"github.com/lfch/etcd-io/client/pkg/v3/logutil"
+	"github.com/lfch/etcd-io/pkg/v3/cobrautl"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

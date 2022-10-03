@@ -12,8 +12,8 @@ import (
 
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/golang/protobuf/proto"
-	etcdserverpb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	mvccpb "go.etcd.io/etcd/api/v3/mvccpb"
+	etcdserverpb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	mvccpb "github.com/lfch/etcd-io/api/v3/mvccpb"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	grpc "github.com/lfch/grpc"
 	codes "github.com/lfch/grpc/codes"

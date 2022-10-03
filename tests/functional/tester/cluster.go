@@ -29,14 +29,14 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/pkg/v3/debugutil"
-	"go.etcd.io/etcd/tests/v3/functional/rpcpb"
+	"github.com/lfch/etcd-io/client/pkg/v3/fileutil"
+	"github.com/lfch/etcd-io/pkg/v3/debugutil"
+	"github.com/lfch/etcd-io/tests/v3/functional/rpcpb"
 
+	"github.com/lfch/grpc"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
-	"github.com/lfch/grpc"
 )
 
 // Cluster defines tester cluster.

@@ -14,7 +14,7 @@
 
 package auth
 
-import "go.etcd.io/etcd/api/v3/authpb"
+import "github.com/lfch/etcd-io/api/v3/authpb"
 
 type backendMock struct {
 	users    map[string]*authpb.User

@@ -23,7 +23,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/pkg/v3/expect"
+	"github.com/lfch/etcd-io/pkg/v3/expect"
 )
 
 const noOutputLineCount = 0 // regular binaries emit no extra lines

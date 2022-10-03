@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"github.com/lfch/grpc"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
 )
 
 func TestAuthority(t *testing.T) {

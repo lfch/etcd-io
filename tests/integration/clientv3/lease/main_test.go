@@ -7,7 +7,7 @@ package lease_test
 import (
 	"testing"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
 )
 
 func TestMain(m *testing.M) {

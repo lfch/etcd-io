@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/lfch/etcd-io/tests/v3/framework/e2e"
 )
 
 func TestCtlV3Watch(t *testing.T)          { testCtl(t, watchTest) }

@@ -20,16 +20,16 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/raft/v3"
-	"go.etcd.io/etcd/server/v3/etcdserver"
-	"go.etcd.io/etcd/server/v3/etcdserver/api"
+	"github.com/lfch/etcd-io/api/v3/v3rpc/rpctypes"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
+	"github.com/lfch/etcd-io/raft/v3"
+	"github.com/lfch/etcd-io/server/v3/etcdserver"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api"
 
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
 	"github.com/lfch/grpc"
 	"github.com/lfch/grpc/metadata"
 	"github.com/lfch/grpc/peer"
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	"go.uber.org/zap"
 )
 

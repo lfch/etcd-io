@@ -20,12 +20,12 @@ import (
 
 	"github.com/coreos/go-semver/semver"
 	"github.com/golang/protobuf/proto"
+	"github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/api/v3/membershippb"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/pkg/v3/pbutil"
+	"github.com/lfch/etcd-io/raft/v3/raftpb"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/membershippb"
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/pkg/v3/pbutil"
-	"go.etcd.io/etcd/raft/v3/raftpb"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

@@ -23,17 +23,17 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	"go.etcd.io/etcd/client/v3/credentials"
-	"go.etcd.io/etcd/client/v3/internal/endpoint"
-	"go.etcd.io/etcd/client/v3/internal/resolver"
-	"go.uber.org/zap"
+	"github.com/lfch/etcd-io/api/v3/v3rpc/rpctypes"
+	"github.com/lfch/etcd-io/client/pkg/v3/logutil"
+	"github.com/lfch/etcd-io/client/v3/credentials"
+	"github.com/lfch/etcd-io/client/v3/internal/endpoint"
+	"github.com/lfch/etcd-io/client/v3/internal/resolver"
 	"github.com/lfch/grpc"
 	"github.com/lfch/grpc/codes"
 	grpccredentials "github.com/lfch/grpc/credentials"
 	"github.com/lfch/grpc/keepalive"
 	"github.com/lfch/grpc/status"
+	"go.uber.org/zap"
 )
 
 var (

@@ -19,7 +19,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/pkg/v3/expect"
+	"github.com/lfch/etcd-io/pkg/v3/expect"
 )
 
 func SpawnCmd(args []string, envVars map[string]string) (*expect.ExpectProcess, error) {

@@ -17,7 +17,7 @@ package ioutil
 import (
 	"io"
 
-	"go.etcd.io/etcd/client/pkg/v3/verify"
+	"github.com/lfch/etcd-io/client/pkg/v3/verify"
 )
 
 var defaultBufferBytes = 128 * 1024

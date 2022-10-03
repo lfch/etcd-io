@@ -18,9 +18,9 @@ import (
 	"context"
 	"errors"
 
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/concurrency"
-	epb "go.etcd.io/etcd/server/v3/etcdserver/api/v3election/v3electionpb"
+	"github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/client/v3/concurrency"
+	epb "github.com/lfch/etcd-io/server/v3/etcdserver/api/v3election/v3electionpb"
 )
 
 // ErrMissingLeaderKey is returned when election API request

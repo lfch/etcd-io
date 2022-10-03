@@ -15,7 +15,7 @@
 package schema
 
 import (
-	"go.etcd.io/etcd/api/v3/authpb"
+	"github.com/lfch/etcd-io/api/v3/authpb"
 	"go.uber.org/zap"
 )
 
