@@ -24,7 +24,7 @@
 //		"go.etcd.io/etcd/client/v3"
 //		"go.etcd.io/etcd/client/v3/naming/endpoints"
 //		"go.etcd.io/etcd/client/v3/naming/resolver"
-//		"google.golang.org/grpc"
+//		"github.com/lfch/grpc"
 //	)
 //
 // First, register new endpoint addresses for a service:

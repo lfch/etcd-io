@@ -19,8 +19,8 @@ import (
 
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
+	"github.com/lfch/grpc"
+	"github.com/lfch/grpc/metadata"
 )
 
 func getAuthTokenFromClient(ctx context.Context) string {

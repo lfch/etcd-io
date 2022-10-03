@@ -16,9 +16,9 @@ package resolver
 
 import (
 	"go.etcd.io/etcd/client/v3/internal/endpoint"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/lfch/grpc/resolver"
+	"github.com/lfch/grpc/resolver/manual"
+	"github.com/lfch/grpc/serviceconfig"
 )
 
 const (

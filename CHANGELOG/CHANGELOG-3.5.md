@@ -383,7 +383,7 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
 
 ### Dependency
 
-- Upgrade [`google.golang.org/grpc`](https://github.com/grpc/grpc-go/releases) from [**`v1.23.0`**](https://github.com/grpc/grpc-go/releases/tag/v1.23.0) to [**`v1.37.0`**](https://github.com/grpc/grpc-go/releases/tag/v1.37.0).
+- Upgrade [`github.com/lfch/grpc`](https://github.com/grpc/grpc-go/releases) from [**`v1.23.0`**](https://github.com/grpc/grpc-go/releases/tag/v1.23.0) to [**`v1.37.0`**](https://github.com/grpc/grpc-go/releases/tag/v1.37.0).
 - Upgrade [`go.uber.org/zap`](https://github.com/uber-go/zap/releases) from [**`v1.14.1`**](https://github.com/uber-go/zap/releases/tag/v1.14.1) to [**`v1.16.0`**](https://github.com/uber-go/zap/releases/tag/v1.16.0).
 
 ### Platforms

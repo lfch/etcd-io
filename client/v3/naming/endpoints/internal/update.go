@@ -16,7 +16,7 @@ package internal
 
 // Operation describes action performed on endpoint (addition vs deletion).
 // Must stay JSON-format compatible with:
-// https://pkg.go.dev/google.golang.org/grpc@v1.29.1/naming#Operation
+// https://pkg.go.dev/github.com/lfch/grpc@v1.29.1/naming#Operation
 type Operation uint8
 
 const (
@@ -32,10 +32,10 @@ const (
 // As the format can be persisted by one version of etcd client library and
 // read by other the format must be kept backward compatible and
 // in particular must be superset of the grpc(<=1.29.1) naming.Update structure:
-// https://pkg.go.dev/google.golang.org/grpc@v1.29.1/naming#Update
+// https://pkg.go.dev/github.com/lfch/grpc@v1.29.1/naming#Update
 //
 // Please document since which version of etcd-client given property is supported.
-// Please keep the naming consistent with e.g. https://pkg.go.dev/google.golang.org/grpc/resolver#Address.
+// Please keep the naming consistent with e.g. https://pkg.go.dev/github.com/lfch/grpc/resolver#Address.
 //
 // Notice that it is not valid having both empty string Addr and nil Metadata in an Update.
 type Update struct {

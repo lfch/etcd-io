@@ -18,10 +18,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/grpc-ecosystem/grpc-gateway/utilities"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/status"
+	"github.com/lfch/grpc"
+	"github.com/lfch/grpc/codes"
+	"github.com/lfch/grpc/grpclog"
+	"github.com/lfch/grpc/status"
 )
 
 // Suppress "imported and not used" errors

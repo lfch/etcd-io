@@ -576,7 +576,7 @@
 		]
 	},
 	{
-		"project": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+		"project": "go.opentelemetry.io/contrib/instrumentation/github.com/lfch/grpc/otelgrpc",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -729,7 +729,7 @@
 		]
 	},
 	{
-		"project": "google.golang.org/grpc",
+		"project": "github.com/lfch/grpc",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

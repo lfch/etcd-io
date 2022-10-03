@@ -22,7 +22,7 @@ import (
 
 // Endpoint represents a single address the connection can be established with.
 //
-// Inspired by: https://pkg.go.dev/google.golang.org/grpc/resolver#Address.
+// Inspired by: https://pkg.go.dev/github.com/lfch/grpc/resolver#Address.
 // Please document etcd version since which version each field is supported.
 type Endpoint struct {
 	// Addr is the server address on which a connection will be established.

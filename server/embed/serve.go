@@ -47,8 +47,8 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/trace"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
+	"github.com/lfch/grpc"
+	"github.com/lfch/grpc/credentials/insecure"
 )
 
 type serveCtx struct {

@@ -30,8 +30,8 @@ import (
 
 	"github.com/dustin/go-humanize"
 	"go.uber.org/zap"
-	grpc "google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
+	grpc "github.com/lfch/grpc"
+	"github.com/lfch/grpc/credentials"
 )
 
 // ElectionTimeout returns an election timeout duration.

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"net"
 
-	"google.golang.org/grpc"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github.com/lfch/grpc"
+	testpb "github.com/lfch/grpc/test/grpc_testing"
 )
 
 // StubServer is borrowed from the interal package of grpc-go.

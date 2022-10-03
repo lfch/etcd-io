@@ -3,7 +3,7 @@ package clientv3
 import (
 	"testing"
 
-	grpccredentials "google.golang.org/grpc/credentials"
+	grpccredentials "github.com/lfch/grpc/credentials"
 
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	"go.etcd.io/etcd/client/v3/credentials"

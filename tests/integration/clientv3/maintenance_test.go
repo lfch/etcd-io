@@ -27,7 +27,7 @@ import (
 	"go.etcd.io/etcd/server/v3/storage/mvcc/testutil"
 	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
 	"go.uber.org/zap/zaptest"
-	"google.golang.org/grpc"
+	"github.com/lfch/grpc"
 
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	"go.etcd.io/etcd/api/v3/version"

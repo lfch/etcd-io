@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"go.etcd.io/etcd/tests/v3/framework/integration"
-	"google.golang.org/grpc/status"
+	"github.com/lfch/grpc/status"
 )
 
 func TestRevisionMonotonicWithLeaderPartitions(t *testing.T) {

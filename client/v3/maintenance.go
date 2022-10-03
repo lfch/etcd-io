@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/lfch/grpc"
 	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
 )
 
 type (

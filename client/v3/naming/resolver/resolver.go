@@ -21,9 +21,9 @@ import (
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/naming/endpoints"
 
-	"google.golang.org/grpc/codes"
-	gresolver "google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/status"
+	"github.com/lfch/grpc/codes"
+	gresolver "github.com/lfch/grpc/resolver"
+	"github.com/lfch/grpc/status"
 )
 
 type builder struct {

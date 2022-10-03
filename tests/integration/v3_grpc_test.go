@@ -32,10 +32,10 @@ import (
 	"go.etcd.io/etcd/tests/v3/framework/config"
 	"go.etcd.io/etcd/tests/v3/framework/integration"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"github.com/lfch/grpc"
+	"github.com/lfch/grpc/codes"
+	"github.com/lfch/grpc/metadata"
+	"github.com/lfch/grpc/status"
 )
 
 // TestV3PutOverwrite puts a key with the v3 api to a random Cluster member,

@@ -27,7 +27,7 @@ import (
 	"go.uber.org/zap/zaptest"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"github.com/lfch/grpc"
 )
 
 func TestClusterProxyMemberList(t *testing.T) {

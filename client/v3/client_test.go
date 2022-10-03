@@ -27,7 +27,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	"google.golang.org/grpc"
+	"github.com/lfch/grpc"
 )
 
 func NewClient(t *testing.T, cfg Config) (*Client, error) {

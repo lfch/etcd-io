@@ -26,10 +26,10 @@ import (
 
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"github.com/lfch/grpc"
+	"github.com/lfch/grpc/codes"
+	"github.com/lfch/grpc/metadata"
+	"github.com/lfch/grpc/status"
 )
 
 // unaryClientInterceptor returns a new retrying unary client interceptor.

@@ -29,7 +29,7 @@ import (
 	"go.etcd.io/etcd/server/v3/etcdserver/api/v2discovery"
 	"go.etcd.io/etcd/server/v3/etcdserver/errors"
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"github.com/lfch/grpc"
 )
 
 type dirType string

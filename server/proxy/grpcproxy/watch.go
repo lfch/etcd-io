@@ -23,9 +23,9 @@ import (
 	"go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/server/v3/etcdserver/api/v3rpc"
 	"go.uber.org/zap"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"github.com/lfch/grpc/codes"
+	"github.com/lfch/grpc/metadata"
+	"github.com/lfch/grpc/status"
 )
 
 type watchProxy struct {

@@ -29,11 +29,11 @@ import (
 	"go.etcd.io/etcd/client/v3/internal/endpoint"
 	"go.etcd.io/etcd/client/v3/internal/resolver"
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	grpccredentials "google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/status"
+	"github.com/lfch/grpc"
+	"github.com/lfch/grpc/codes"
+	grpccredentials "github.com/lfch/grpc/credentials"
+	"github.com/lfch/grpc/keepalive"
+	"github.com/lfch/grpc/status"
 )
 
 var (

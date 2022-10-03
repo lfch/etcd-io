@@ -19,7 +19,7 @@ import (
 
 	"go.etcd.io/etcd/server/v3/etcdserver/api/v3lock/v3lockpb"
 
-	"google.golang.org/grpc"
+	"github.com/lfch/grpc"
 )
 
 type ls2lsc struct{ ls v3lockpb.LockServer }

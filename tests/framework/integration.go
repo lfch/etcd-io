@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
+	healthpb "github.com/lfch/grpc/health/grpc_health_v1"
 
 	"go.etcd.io/etcd/client/pkg/v3/testutil"
 	"go.etcd.io/etcd/client/pkg/v3/transport"

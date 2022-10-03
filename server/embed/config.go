@@ -45,7 +45,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"
-	"google.golang.org/grpc"
+	"github.com/lfch/grpc"
 	"sigs.k8s.io/yaml"
 )
 

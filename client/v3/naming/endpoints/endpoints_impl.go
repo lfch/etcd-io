@@ -26,8 +26,8 @@ import (
 	"go.etcd.io/etcd/client/v3/naming/endpoints/internal"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/lfch/grpc/codes"
+	"github.com/lfch/grpc/status"
 )
 
 type endpointManager struct {

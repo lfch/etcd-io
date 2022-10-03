@@ -24,8 +24,8 @@ import (
 	"go.etcd.io/etcd/client/v3/naming/resolver"
 	"go.etcd.io/etcd/pkg/v3/grpc_testing"
 	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
-	"google.golang.org/grpc"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github.com/lfch/grpc"
+	testpb "github.com/lfch/grpc/test/grpc_testing"
 )
 
 // This test mimics scenario described in grpc_naming.md doc.

@@ -19,7 +19,7 @@ import (
 
 	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 
-	"google.golang.org/grpc"
+	"github.com/lfch/grpc"
 )
 
 type mts2mtc struct{ mts pb.MaintenanceServer }

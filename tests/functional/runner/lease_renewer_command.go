@@ -22,9 +22,9 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
+	"github.com/lfch/grpc/codes"
+	"github.com/lfch/grpc/status"
 	"github.com/spf13/cobra"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
 )
 
 var (

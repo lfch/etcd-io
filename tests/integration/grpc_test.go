@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/lfch/grpc"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/tests/v3/framework/integration"
-	"google.golang.org/grpc"
 )
 
 func TestAuthority(t *testing.T) {

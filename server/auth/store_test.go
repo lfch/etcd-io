@@ -26,12 +26,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zaptest"
 
+	"github.com/lfch/grpc/metadata"
 	"go.etcd.io/etcd/api/v3/authpb"
 	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	"go.etcd.io/etcd/pkg/v3/adt"
 	"golang.org/x/crypto/bcrypt"
-	"google.golang.org/grpc/metadata"
 )
 
 func dummyIndexWaiter(index uint64) <-chan struct{} {

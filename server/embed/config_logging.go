@@ -27,8 +27,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zapgrpc"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/grpclog"
+	"github.com/lfch/grpc"
+	"github.com/lfch/grpc/grpclog"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 

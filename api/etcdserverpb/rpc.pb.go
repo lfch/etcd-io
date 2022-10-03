@@ -16,9 +16,9 @@ import (
 	mvccpb "go.etcd.io/etcd/api/v3/mvccpb"
 	_ "go.etcd.io/etcd/api/v3/versionpb"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "github.com/lfch/grpc"
+	codes "github.com/lfch/grpc/codes"
+	status "github.com/lfch/grpc/status"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -6465,7 +6465,7 @@ const _ = grpc.SupportPackageIsVersion4
 
 // KVClient is the client API for KV service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/lfch/grpc#ClientConn.NewStream.
 type KVClient interface {
 	// Range gets the keys in the range from the key-value store.
 	Range(ctx context.Context, in *RangeRequest, opts ...grpc.CallOption) (*RangeResponse, error)
@@ -6709,7 +6709,7 @@ var _KV_serviceDesc = grpc.ServiceDesc{
 
 // WatchClient is the client API for Watch service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/lfch/grpc#ClientConn.NewStream.
 type WatchClient interface {
 	// Watch watches for events happening or that have happened. Both input and output
 	// are streams; the input stream is for creating and canceling watchers and the output
@@ -6823,7 +6823,7 @@ var _Watch_serviceDesc = grpc.ServiceDesc{
 
 // LeaseClient is the client API for Lease service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/lfch/grpc#ClientConn.NewStream.
 type LeaseClient interface {
 	// LeaseGrant creates a lease which expires if the server does not receive a keepAlive
 	// within a given time to live period. All keys attached to the lease will be expired and
@@ -7088,7 +7088,7 @@ var _Lease_serviceDesc = grpc.ServiceDesc{
 
 // ClusterClient is the client API for Cluster service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/lfch/grpc#ClientConn.NewStream.
 type ClusterClient interface {
 	// MemberAdd adds a member into the cluster.
 	MemberAdd(ctx context.Context, in *MemberAddRequest, opts ...grpc.CallOption) (*MemberAddResponse, error)
@@ -7314,7 +7314,7 @@ var _Cluster_serviceDesc = grpc.ServiceDesc{
 
 // MaintenanceClient is the client API for Maintenance service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/lfch/grpc#ClientConn.NewStream.
 type MaintenanceClient interface {
 	// Alarm activates, deactivates, and queries alarms regarding cluster health.
 	Alarm(ctx context.Context, in *AlarmRequest, opts ...grpc.CallOption) (*AlarmResponse, error)
@@ -7698,7 +7698,7 @@ var _Maintenance_serviceDesc = grpc.ServiceDesc{
 
 // AuthClient is the client API for Auth service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/lfch/grpc#ClientConn.NewStream.
 type AuthClient interface {
 	// AuthEnable enables authentication.
 	AuthEnable(ctx context.Context, in *AuthEnableRequest, opts ...grpc.CallOption) (*AuthEnableResponse, error)

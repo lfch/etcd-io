@@ -27,7 +27,7 @@ import (
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/mirror"
 	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
-	"google.golang.org/grpc"
+	"github.com/lfch/grpc"
 )
 
 func TestMirrorSync_Authenticated(t *testing.T) {

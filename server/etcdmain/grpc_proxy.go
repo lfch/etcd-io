@@ -52,9 +52,9 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapgrpc"
 	"golang.org/x/net/http2"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/keepalive"
+	"github.com/lfch/grpc"
+	"github.com/lfch/grpc/grpclog"
+	"github.com/lfch/grpc/keepalive"
 )
 
 var (
