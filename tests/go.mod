@@ -41,7 +41,7 @@ require (
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
 	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
 	golang.org/x/time v0.0.0-20220609170525-579cf78fd858
-	github.com/lfch/grpc v1.47.0
+	github.com/lfch/grpc v1.51.4
 	gopkg.in/yaml.v2 v2.4.0
 )
 
