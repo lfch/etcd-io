@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/api/v3
+module github.com/lfch/etcd/api/v3
 
 go 1.18
 
