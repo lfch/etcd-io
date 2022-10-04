@@ -1,6 +1,6 @@
 module go.etcd.io/etcd/client/v3
 
-go 1.19
+go 1.18
 
 require (
 	github.com/dustin/go-humanize v1.0.0
@@ -51,4 +51,8 @@ replace (
 	go.etcd.io/etcd/pkg/v3 => ./FORBIDDEN_DEPENDENCY
 	go.etcd.io/etcd/v3 => ./FORBIDDEN_DEPENDENCY
 	go.etcd.io/tests/v3 => ./FORBIDDEN_DEPENDENCY
+)
+
+replace (
+	google.golang.org/grpc => github.com/lfch/grpc v1.51.4
 )
