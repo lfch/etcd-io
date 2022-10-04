@@ -32,3 +32,7 @@ replace (
 	github.com/lfch/etcd-io/tests/v3 => ./FORBIDDEN_DEPENDENCY
 	github.com/lfch/etcd-io/v3 => ./FORBIDDEN_DEPENDENCY
 )
+
+replace (
+	google.golang.org/grpc => github.com/lfch/grpc v1.51.4
+)

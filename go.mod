@@ -3,7 +3,7 @@ module github.com/lfch/etcd-io/v3
 go 1.19
 
 replace (
-	github.com/lfch/etcd-io/api/v3 => ./api
+	github.com/lfch/etcd-io/api/v3 => ./
 	github.com/lfch/etcd-io/client/pkg/v3 => ./client/pkg
 	github.com/lfch/etcd-io/client/v2 => ./client/v2
 	github.com/lfch/etcd-io/client/v3 => ./client/v3
