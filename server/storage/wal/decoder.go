@@ -21,11 +21,11 @@ import (
 	"io"
 	"sync"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/pkg/v3/crc"
-	"go.etcd.io/etcd/pkg/v3/pbutil"
-	"go.etcd.io/etcd/raft/v3/raftpb"
-	"go.etcd.io/etcd/server/v3/storage/wal/walpb"
+	"github.com/lfch/etcd-io/client/pkg/v3/fileutil"
+	"github.com/lfch/etcd-io/pkg/v3/crc"
+	"github.com/lfch/etcd-io/pkg/v3/pbutil"
+	"github.com/lfch/etcd-io/raft/v3/raftpb"
+	"github.com/lfch/etcd-io/server/v3/storage/wal/walpb"
 )
 
 const minSectorSize = 512

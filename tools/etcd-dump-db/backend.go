@@ -21,12 +21,12 @@ import (
 
 	"go.uber.org/zap"
 
+	"github.com/lfch/etcd-io/api/v3/authpb"
+	"github.com/lfch/etcd-io/api/v3/mvccpb"
+	"github.com/lfch/etcd-io/server/v3/lease/leasepb"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/server/v3/storage/schema"
 	bolt "go.etcd.io/bbolt"
-	"go.etcd.io/etcd/api/v3/authpb"
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	"go.etcd.io/etcd/server/v3/lease/leasepb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/schema"
 )
 
 func snapDir(dataDir string) string {

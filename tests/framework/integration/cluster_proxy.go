@@ -21,10 +21,10 @@ import (
 	"context"
 	"sync"
 
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/namespace"
-	"go.etcd.io/etcd/server/v3/proxy/grpcproxy"
-	"go.etcd.io/etcd/server/v3/proxy/grpcproxy/adapter"
+	"github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/client/v3/namespace"
+	"github.com/lfch/etcd-io/server/v3/proxy/grpcproxy"
+	"github.com/lfch/etcd-io/server/v3/proxy/grpcproxy/adapter"
 )
 
 const ThroughProxy = true

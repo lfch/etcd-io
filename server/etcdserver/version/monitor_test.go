@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/api/v3/version"
+	"github.com/lfch/etcd-io/api/v3/version"
 )
 
 func TestMemberMinimalVersion(t *testing.T) {

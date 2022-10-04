@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/lfch/etcd-io/tests/v3/framework/config"
+	"github.com/lfch/etcd-io/tests/v3/framework/e2e"
+	"github.com/lfch/etcd-io/tests/v3/framework/testutils"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/framework/testutils"
 )
 
 func TestAuthority(t *testing.T) {

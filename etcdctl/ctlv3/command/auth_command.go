@@ -17,9 +17,9 @@ package command
 import (
 	"fmt"
 
+	"github.com/lfch/etcd-io/api/v3/v3rpc/rpctypes"
+	"github.com/lfch/etcd-io/pkg/v3/cobrautl"
 	"github.com/spf13/cobra"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
 )
 
 // NewAuthCommand returns the cobra command for "auth".

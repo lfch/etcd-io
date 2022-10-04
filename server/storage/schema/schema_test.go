@@ -19,15 +19,15 @@ import (
 	"time"
 
 	"github.com/coreos/go-semver/semver"
+	"github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/api/v3/membershippb"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/raft/v3/raftpb"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	betesting "github.com/lfch/etcd-io/server/v3/storage/backend/testing"
+	"github.com/lfch/etcd-io/server/v3/storage/wal"
+	waltesting "github.com/lfch/etcd-io/server/v3/storage/wal/testing"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/membershippb"
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/raft/v3/raftpb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
-	"go.etcd.io/etcd/server/v3/storage/wal"
-	waltesting "go.etcd.io/etcd/server/v3/storage/wal/testing"
 	"go.uber.org/zap"
 )
 

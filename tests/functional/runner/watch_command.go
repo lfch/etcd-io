@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/stringutil"
+	"github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/pkg/v3/stringutil"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"

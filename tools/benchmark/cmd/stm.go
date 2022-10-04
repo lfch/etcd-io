@@ -23,10 +23,10 @@ import (
 	"os"
 	"time"
 
-	v3 "go.etcd.io/etcd/client/v3"
-	v3sync "go.etcd.io/etcd/client/v3/concurrency"
-	"go.etcd.io/etcd/pkg/v3/report"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v3lock/v3lockpb"
+	v3 "github.com/lfch/etcd-io/client/v3"
+	v3sync "github.com/lfch/etcd-io/client/v3/concurrency"
+	"github.com/lfch/etcd-io/pkg/v3/report"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/v3lock/v3lockpb"
 
 	"github.com/cheggaaa/pb/v3"
 	"github.com/spf13/cobra"

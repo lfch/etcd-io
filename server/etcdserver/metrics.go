@@ -18,8 +18,8 @@ import (
 	goruntime "runtime"
 	"time"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/pkg/v3/runtime"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/pkg/v3/runtime"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"

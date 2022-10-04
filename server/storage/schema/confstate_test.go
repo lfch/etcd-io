@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/raft/v3/raftpb"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
+	"github.com/lfch/etcd-io/raft/v3/raftpb"
+	betesting "github.com/lfch/etcd-io/server/v3/storage/backend/testing"
 	"go.uber.org/zap/zaptest"
 )
 

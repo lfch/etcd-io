@@ -17,10 +17,10 @@ package apply
 import (
 	"context"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/pkg/v3/traceutil"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/pkg/v3/traceutil"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/errors"
+	"github.com/lfch/etcd-io/server/v3/storage/mvcc"
 )
 
 type applierV3Corrupt struct {

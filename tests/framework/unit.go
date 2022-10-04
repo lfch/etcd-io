@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/tests/v3/framework/config"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/tests/v3/framework/config"
 )
 
 type unitRunner struct{}

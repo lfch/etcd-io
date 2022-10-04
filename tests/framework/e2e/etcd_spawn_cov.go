@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/pkg/v3/expect"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/lfch/etcd-io/client/pkg/v3/fileutil"
+	"github.com/lfch/etcd-io/pkg/v3/expect"
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"go.uber.org/zap"
 )
 

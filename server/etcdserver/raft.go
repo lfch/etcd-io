@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	"go.etcd.io/etcd/pkg/v3/contention"
-	"go.etcd.io/etcd/raft/v3"
-	"go.etcd.io/etcd/raft/v3/raftpb"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/rafthttp"
-	serverstorage "go.etcd.io/etcd/server/v3/storage"
+	"github.com/lfch/etcd-io/client/pkg/v3/logutil"
+	"github.com/lfch/etcd-io/pkg/v3/contention"
+	"github.com/lfch/etcd-io/raft/v3"
+	"github.com/lfch/etcd-io/raft/v3/raftpb"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/rafthttp"
+	serverstorage "github.com/lfch/etcd-io/server/v3/storage"
 	"go.uber.org/zap"
 )
 

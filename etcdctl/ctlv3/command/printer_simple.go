@@ -19,9 +19,9 @@ import (
 	"os"
 	"strings"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	v3 "go.etcd.io/etcd/client/v3"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
+	v3 "github.com/lfch/etcd-io/client/v3"
 )
 
 const rootRole = "root"

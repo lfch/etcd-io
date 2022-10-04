@@ -17,7 +17,7 @@ package etcdutl
 import (
 	"fmt"
 
-	"go.etcd.io/etcd/api/v3/version"
+	"github.com/lfch/etcd-io/api/v3/version"
 
 	"github.com/spf13/cobra"
 )

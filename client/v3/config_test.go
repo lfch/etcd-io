@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
+	"github.com/lfch/etcd-io/client/pkg/v3/logutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/transport"
 )
 
 func TestNewClientConfig(t *testing.T) {

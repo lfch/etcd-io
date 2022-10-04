@@ -24,7 +24,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/reflect/protoregistry"
 
-	"go.etcd.io/etcd/server/v3/storage/wal"
+	"github.com/lfch/etcd-io/server/v3/storage/wal"
 )
 
 var (

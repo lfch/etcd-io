@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"time"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/concurrency"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/client/v3/concurrency"
 )
 
 type request struct {

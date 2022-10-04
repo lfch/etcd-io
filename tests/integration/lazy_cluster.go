@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/transport"
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 )
 
 // Infrastructure to provision a single shared cluster for tests - only

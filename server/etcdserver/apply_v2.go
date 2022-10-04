@@ -22,12 +22,12 @@ import (
 	"unicode/utf8"
 
 	"github.com/coreos/go-semver/semver"
-	"go.etcd.io/etcd/pkg/v3/pbutil"
-	"go.etcd.io/etcd/server/v3/etcdserver/api"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2store"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
-	"go.etcd.io/etcd/server/v3/etcdserver/txn"
+	"github.com/lfch/etcd-io/pkg/v3/pbutil"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/membership"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/v2store"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/errors"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/txn"
 
 	"go.uber.org/zap"
 )

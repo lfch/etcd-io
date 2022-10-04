@@ -17,8 +17,8 @@ package storage
 import (
 	"sync"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

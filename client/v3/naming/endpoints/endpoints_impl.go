@@ -22,8 +22,8 @@ import (
 	"errors"
 	"strings"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/naming/endpoints/internal"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/client/v3/naming/endpoints/internal"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"

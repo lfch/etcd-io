@@ -24,8 +24,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/pkg/v3/expect"
+	"github.com/lfch/etcd-io/client/pkg/v3/fileutil"
+	"github.com/lfch/etcd-io/pkg/v3/expect"
 )
 
 var (

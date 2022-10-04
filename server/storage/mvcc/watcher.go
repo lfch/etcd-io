@@ -19,8 +19,8 @@ import (
 	"errors"
 	"sync"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	clientv3 "go.etcd.io/etcd/client/v3"
+	"github.com/lfch/etcd-io/api/v3/mvccpb"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
 )
 
 var (

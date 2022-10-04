@@ -16,8 +16,8 @@ package schema
 
 import (
 	"github.com/coreos/go-semver/semver"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
 	"go.etcd.io/bbolt"
-	"go.etcd.io/etcd/server/v3/storage/backend"
 )
 
 // ReadStorageVersion loads storage version from given backend transaction.

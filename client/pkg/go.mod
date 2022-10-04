@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/client/pkg/v3
+module github.com/lfch/etcd-io/client/pkg/v3
 
 go 1.19
 

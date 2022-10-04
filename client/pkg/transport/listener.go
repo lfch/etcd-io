@@ -32,9 +32,9 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/client/pkg/v3/tlsutil"
-	"go.etcd.io/etcd/client/pkg/v3/verify"
+	"github.com/lfch/etcd-io/client/pkg/v3/fileutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/tlsutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/verify"
 
 	"go.uber.org/zap"
 )

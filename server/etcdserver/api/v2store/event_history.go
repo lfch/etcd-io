@@ -20,7 +20,7 @@ import (
 	"strings"
 	"sync"
 
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2error"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/v2error"
 )
 
 type EventHistory struct {

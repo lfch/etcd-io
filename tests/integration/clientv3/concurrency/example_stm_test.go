@@ -21,8 +21,7 @@ import (
 	"math/rand"
 	"sync"
 
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/concurrency"
+	"github.com/lfch/etcd-io/client/v3/concurrency"
 )
 
 func mockSTM_apply() {

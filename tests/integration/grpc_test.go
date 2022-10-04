@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"google.golang.org/grpc"
 )
 

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/lfch/etcd-io/tests/v3/framework/e2e"
 )
 
 // TestCtlV3RoleAddTimeout tests add role with 0 grpc dial timeout while it tolerates dial timeout error.

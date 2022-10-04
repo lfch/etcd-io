@@ -17,13 +17,13 @@ package verify
 import (
 	"fmt"
 
-	"go.etcd.io/etcd/client/pkg/v3/verify"
-	"go.etcd.io/etcd/raft/v3/raftpb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/datadir"
-	"go.etcd.io/etcd/server/v3/storage/schema"
-	wal2 "go.etcd.io/etcd/server/v3/storage/wal"
-	"go.etcd.io/etcd/server/v3/storage/wal/walpb"
+	"github.com/lfch/etcd-io/client/pkg/v3/verify"
+	"github.com/lfch/etcd-io/raft/v3/raftpb"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/server/v3/storage/datadir"
+	"github.com/lfch/etcd-io/server/v3/storage/schema"
+	wal2 "github.com/lfch/etcd-io/server/v3/storage/wal"
+	"github.com/lfch/etcd-io/server/v3/storage/wal/walpb"
 	"go.uber.org/zap"
 )
 

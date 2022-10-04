@@ -22,12 +22,12 @@ import (
 	"time"
 
 	"github.com/coreos/go-semver/semver"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/client/pkg/v3/fileutil"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/server/v3/storage/schema"
+	"github.com/lfch/etcd-io/tests/v3/framework/e2e"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/schema"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
 	"go.uber.org/zap/zaptest"
 )
 

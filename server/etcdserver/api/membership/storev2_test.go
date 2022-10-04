@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"github.com/coreos/go-semver/semver"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/v2store"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2store"
 	"go.uber.org/zap/zaptest"
 )
 

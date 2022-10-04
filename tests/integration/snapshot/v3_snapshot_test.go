@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/etcdutl/v3/snapshot"
-	"go.etcd.io/etcd/server/v3/embed"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/etcdutl/v3/snapshot"
+	"github.com/lfch/etcd-io/server/v3/embed"
+	integration2 "github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest"
 )

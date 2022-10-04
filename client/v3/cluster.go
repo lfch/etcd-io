@@ -17,8 +17,8 @@ package clientv3
 import (
 	"context"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/client/pkg/v3/types"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
 
 	"google.golang.org/grpc"
 )

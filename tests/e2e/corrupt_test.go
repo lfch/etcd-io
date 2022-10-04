@@ -21,12 +21,12 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/storage/datadir"
-	"go.etcd.io/etcd/server/v3/storage/mvcc/testutil"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/server/v3/storage/datadir"
+	"github.com/lfch/etcd-io/server/v3/storage/mvcc/testutil"
+	"github.com/lfch/etcd-io/tests/v3/framework/config"
+	"github.com/lfch/etcd-io/tests/v3/framework/e2e"
 )
 
 func TestEtcdCorruptHash(t *testing.T) {

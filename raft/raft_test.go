@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	pb "go.etcd.io/etcd/raft/v3/raftpb"
-	"go.etcd.io/etcd/raft/v3/tracker"
+	pb "github.com/lfch/etcd-io/raft/v3/raftpb"
+	"github.com/lfch/etcd-io/raft/v3/tracker"
 )
 
 // nextEnts returns the appliable entries and updates the applied index

@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	"go.etcd.io/etcd/api/v3/authpb"
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/tests/v3/framework/config"
+	"github.com/lfch/etcd-io/api/v3/authpb"
+	"github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/tests/v3/framework/config"
 )
 
 type EtcdctlV3 struct {

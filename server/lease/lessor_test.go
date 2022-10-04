@@ -26,10 +26,10 @@ import (
 	"time"
 
 	"github.com/coreos/go-semver/semver"
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/schema"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/server/v3/storage/schema"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 )

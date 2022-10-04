@@ -22,13 +22,13 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/datadir"
-	"go.etcd.io/etcd/server/v3/storage/schema"
-	"go.etcd.io/etcd/server/v3/storage/wal"
-	"go.etcd.io/etcd/server/v3/storage/wal/walpb"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/pkg/v3/cobrautl"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/server/v3/storage/datadir"
+	"github.com/lfch/etcd-io/server/v3/storage/schema"
+	"github.com/lfch/etcd-io/server/v3/storage/wal"
+	"github.com/lfch/etcd-io/server/v3/storage/wal/walpb"
 )
 
 // NewMigrateCommand prints out the version of etcd.

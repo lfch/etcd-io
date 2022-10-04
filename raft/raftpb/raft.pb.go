@@ -11,7 +11,7 @@ import (
 
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/golang/protobuf/proto"
-	_ "go.etcd.io/etcd/api/v3/versionpb"
+	_ "github.com/lfch/etcd-io/api/v3/versionpb"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -69,7 +69,7 @@ func (EntryType) EnumDescriptor() ([]byte, []int) {
 }
 
 // For description of different message types, see:
-// https://pkg.go.dev/go.etcd.io/etcd/raft/v3#hdr-MessageType
+// https://pkg.go.dev/github.com/lfch/etcd-io/raft/v3#hdr-MessageType
 type MessageType int32
 
 const (

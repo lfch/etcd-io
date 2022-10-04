@@ -23,10 +23,10 @@ import (
 	"net/http"
 	"time"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/pkg/v3/httputil"
-	"go.etcd.io/etcd/server/v3/lease"
-	"go.etcd.io/etcd/server/v3/lease/leasepb"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/pkg/v3/httputil"
+	"github.com/lfch/etcd-io/server/v3/lease"
+	"github.com/lfch/etcd-io/server/v3/lease/leasepb"
 )
 
 var (

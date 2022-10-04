@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/logutil"
 )
 
 func TestGet(t *testing.T) {

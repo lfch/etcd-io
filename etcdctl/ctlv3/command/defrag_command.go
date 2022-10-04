@@ -19,8 +19,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/lfch/etcd-io/pkg/v3/cobrautl"
 	"github.com/spf13/cobra"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
 )
 
 // NewDefragCommand returns the cobra command for "Defrag".

@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.etcd.io/etcd/api/v3/authpb"
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
+	"github.com/lfch/etcd-io/api/v3/authpb"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/api/v3/v3rpc/rpctypes"
 
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"

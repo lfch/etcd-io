@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/api/v3/v3rpc/rpctypes"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
+	"github.com/lfch/etcd-io/server/v3/storage/mvcc"
 	"github.com/stretchr/testify/assert"
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
 	"go.uber.org/zap/zaptest"
 )
 

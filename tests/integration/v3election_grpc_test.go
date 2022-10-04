@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	epb "go.etcd.io/etcd/server/v3/etcdserver/api/v3election/v3electionpb"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	epb "github.com/lfch/etcd-io/server/v3/etcdserver/api/v3election/v3electionpb"
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 )
 
 // TestV3ElectionCampaign checks that Campaign will not give

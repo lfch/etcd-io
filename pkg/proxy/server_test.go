@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/lfch/etcd-io/client/pkg/v3/transport"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
 	"go.uber.org/zap/zaptest"
 
 	"go.uber.org/zap"

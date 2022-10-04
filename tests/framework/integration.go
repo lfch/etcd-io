@@ -22,13 +22,13 @@ import (
 
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	etcdctlcmd "go.etcd.io/etcd/etcdctl/v3/ctlv3/command"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/client/pkg/v3/transport"
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	etcdctlcmd "github.com/lfch/etcd-io/etcdctl/v3/ctlv3/command"
 
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/lfch/etcd-io/tests/v3/framework/config"
+	"github.com/lfch/etcd-io/tests/v3/framework/integration"
 	"go.uber.org/zap"
 )
 

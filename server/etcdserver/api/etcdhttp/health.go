@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	pb "github.com/lfch/etcd-io/api/v3/etcdserverpb"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
+	"github.com/lfch/etcd-io/raft/v3"
+	"github.com/lfch/etcd-io/server/v3/auth"
+	"github.com/lfch/etcd-io/server/v3/config"
 	"github.com/prometheus/client_golang/prometheus"
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/raft/v3"
-	"go.etcd.io/etcd/server/v3/auth"
-	"go.etcd.io/etcd/server/v3/config"
 	"go.uber.org/zap"
 )
 

@@ -16,7 +16,7 @@
 package main
 
 import (
-	"go.etcd.io/etcd/etcdctl/v3/ctlv3"
+	"github.com/lfch/etcd-io/etcdctl/v3/ctlv3"
 )
 
 /*

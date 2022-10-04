@@ -5,8 +5,8 @@ import (
 
 	grpccredentials "google.golang.org/grpc/credentials"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/client/v3/credentials"
+	"github.com/lfch/etcd-io/api/v3/v3rpc/rpctypes"
+	"github.com/lfch/etcd-io/client/v3/credentials"
 )
 
 type dummyAuthTokenBundle struct{}

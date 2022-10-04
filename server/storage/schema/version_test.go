@@ -23,8 +23,8 @@ import (
 	"go.etcd.io/bbolt"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/backend/testing"
+	"github.com/lfch/etcd-io/server/v3/storage/backend"
+	"github.com/lfch/etcd-io/server/v3/storage/backend/testing"
 )
 
 // TestVersion ensures that UnsafeSetStorageVersion/UnsafeReadStorageVersion work well together.

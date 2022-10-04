@@ -363,15 +363,15 @@ function cov_pass {
   # strip out generated files (using GNU-style sed)
   sed --in-place -E "/[.]pb[.](gw[.])?go/d" "${cover_out_file}" || true
 
-  sed --in-place -E "s|go.etcd.io/etcd/api/v3/|api/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/client/v3/|client/v3/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/client/v2/|client/v2/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/client/pkg/v3|client/pkg/v3/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/etcdctl/v3/|etcdctl/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/etcdutl/v3/|etcdutl/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/pkg/v3/|pkg/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/raft/v3/|raft/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/server/v3/|server/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/lfch/etcd-io/api/v3/|api/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/lfch/etcd-io/client/v3/|client/v3/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/lfch/etcd-io/client/v2/|client/v2/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/lfch/etcd-io/client/pkg/v3|client/pkg/v3/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/lfch/etcd-io/etcdctl/v3/|etcdctl/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/lfch/etcd-io/etcdutl/v3/|etcdutl/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/lfch/etcd-io/pkg/v3/|pkg/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/lfch/etcd-io/raft/v3/|raft/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/lfch/etcd-io/server/v3/|server/|g" "${cover_out_file}" || true
 
   # held failures to generate the full coverage file, now fail
   if [ -n "$failed" ]; then

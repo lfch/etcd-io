@@ -17,7 +17,7 @@
 
 package common
 
-import "go.etcd.io/etcd/tests/v3/framework"
+import "github.com/lfch/etcd-io/tests/v3/framework"
 
 func init() {
 	testRunner = framework.E2eTestRunner

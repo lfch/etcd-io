@@ -109,7 +109,7 @@ goreman -f ./Procfile.learner start
 ### Install etcd client v3
 
 ```bash
-go get go.etcd.io/etcd/client/v3
+go get github.com/lfch/etcd-io/client/v3
 ```
 
 ### Next steps

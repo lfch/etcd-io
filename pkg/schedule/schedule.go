@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"go.etcd.io/etcd/client/pkg/v3/verify"
+	"github.com/lfch/etcd-io/client/pkg/v3/verify"
 
 	"go.uber.org/zap"
 )

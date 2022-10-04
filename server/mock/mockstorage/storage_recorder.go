@@ -16,9 +16,9 @@ package mockstorage
 
 import (
 	"github.com/coreos/go-semver/semver"
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/raft/v3"
-	"go.etcd.io/etcd/raft/v3/raftpb"
+	"github.com/lfch/etcd-io/client/pkg/v3/testutil"
+	"github.com/lfch/etcd-io/raft/v3"
+	"github.com/lfch/etcd-io/raft/v3/raftpb"
 )
 
 type storageRecorder struct {

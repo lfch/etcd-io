@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
+	clientv3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/server/v3/etcdserver"
+	"github.com/lfch/etcd-io/tests/v3/framework"
+	"github.com/lfch/etcd-io/tests/v3/framework/testutils"
 	"github.com/stretchr/testify/require"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/etcdserver"
-	"go.etcd.io/etcd/tests/v3/framework"
-	"go.etcd.io/etcd/tests/v3/framework/testutils"
 )
 
 func TestMemberList(t *testing.T) {

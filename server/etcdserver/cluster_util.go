@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
+	"github.com/lfch/etcd-io/api/v3/version"
+	"github.com/lfch/etcd-io/client/pkg/v3/types"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/api/membership"
+	"github.com/lfch/etcd-io/server/v3/etcdserver/errors"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

@@ -26,9 +26,9 @@ import (
 	"sync"
 	"time"
 
-	v3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
-	"go.etcd.io/etcd/pkg/v3/report"
+	v3 "github.com/lfch/etcd-io/client/v3"
+	"github.com/lfch/etcd-io/pkg/v3/cobrautl"
+	"github.com/lfch/etcd-io/pkg/v3/report"
 
 	"github.com/cheggaaa/pb/v3"
 	"github.com/spf13/cobra"

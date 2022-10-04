@@ -1,10 +1,10 @@
-module go.etcd.io/etcd/client/v2
+module github.com/lfch/etcd-io/client/v2
 
 go 1.19
 
 require (
-	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/api/v3 v3.6.0-alpha.0
+	github.com/lfch/etcd-io/client/pkg/v3 v3.6.0-alpha.0
 	sigs.k8s.io/json v0.0.0-20211020170558-c049b76a60c6
 )
 
@@ -18,15 +18,15 @@ require (
 )
 
 replace (
-	go.etcd.io/etcd/api/v3 => ../../api
-	go.etcd.io/etcd/client/pkg/v3 => ../pkg
+	github.com/lfch/etcd-io/api/v3 => ../../api
+	github.com/lfch/etcd-io/client/pkg/v3 => ../pkg
 )
 
 // Bad imports are sometimes causing attempts to pull that code.
 // This makes the error more explicit.
 replace (
-	go.etcd.io/etcd => ./FORBIDDEN_DEPENDENCY
-	go.etcd.io/etcd/pkg/v3 => ./FORBIDDED_DEPENDENCY
-	go.etcd.io/etcd/tests/v3 => ./FORBIDDEN_DEPENDENCY
-	go.etcd.io/etcd/v3 => ./FORBIDDEN_DEPENDENCY
+	github.com/lfch/etcd-io => ./FORBIDDEN_DEPENDENCY
+	github.com/lfch/etcd-io/pkg/v3 => ./FORBIDDED_DEPENDENCY
+	github.com/lfch/etcd-io/tests/v3 => ./FORBIDDEN_DEPENDENCY
+	github.com/lfch/etcd-io/v3 => ./FORBIDDEN_DEPENDENCY
 )
